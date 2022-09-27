@@ -4,7 +4,7 @@ var 이름2 = { name: "kim" };
 var 이름3 = 123; // 문자열 혹은 숫자가 들어올 수 있음
 var 이름4; // 타입실드 해제문법임 --> 일반 자바스크립트처럼 쓸 수 있음
 var 이름5; // 모든 자료형 허용해줌. 이게 더 안전함
-function 함수(x) {
+function 함수123(x) {
     return x * 2; // 함수의 파라미터와 return 값 둘 다 변수지정 가능
 }
 var john = { name: 'kim', age: "123" };
@@ -33,7 +33,7 @@ function 내함수(x) {
 // Assertion 문법(타입 덮어쓰기)
 function 내함수1(x) {
     var array = [];
-    array[0] = x;
+    array[0] = x; // assertion 문법 : x를 number라는 타입으로 덮어써주세요~
 }
 function 함수3(x) {
     return x.toString.length;
@@ -56,3 +56,17 @@ function 결혼가능하냐(pay, house, attractive) {
     }
     return "";
 }
+var 여친 = {
+    name: '주용'
+};
+var 테스트용변수 = {
+    color: "red",
+    size: 3,
+    position: [1, 2, 3]
+};
+var 청소년 = {
+    name: "김홍식",
+    phonenum: 26373885,
+    email: "rlaghdtlr012@naver.com",
+    juvenile: false
+};
